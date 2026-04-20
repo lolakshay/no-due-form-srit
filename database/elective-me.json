@@ -1,0 +1,79 @@
+{
+  "professional_electives": [
+    "20MEP01 - Composite Materials",
+    "20MEP02 - Non-destructive Evaluation of Materials",
+    "20MEP03 - Materials Characterization Techniques",
+    "20MEP04 - Nano Materials and Applications",
+    "20MEP05 - Metal Forming Technology",
+    "20MEP06 - Emerging Materials",
+
+    "20MEP11 - Unconventional Machining Processes",
+    "20MEP12 - Production Planning and Control",
+    "20MEP13 - Maintenance Engineering",
+    "20MEP14 - Additive Manufacturing",
+    "20MEP15 - Casting and Welding Processes",
+    "20MEP16 - Process Planning and Cost Estimation",
+
+    "20MEP21 - Advanced Internal Combustion Engines",
+    "20MEP22 - New and Renewable Sources of Energy",
+    "20MEP23 - Gas Dynamics and Jet Propulsion",
+    "20MEP24 - Energy Conservation in Industries",
+    "20MEP25 - Refrigeration and Air Conditioning",
+    "20MEP26 - Automobile Engineering",
+
+    "20MEP31 - Product Design and Development",
+    "20MEP32 - Design for Manufacture & Assembly",
+    "20MEP33 - Piping System Design",
+    "20MEP34 - Computational Techniques For Fluid Dynamics",
+    "20MEP35 - Design Concepts in Engineering",
+    "20MEP36 - Design of Jigs, Fixtures and Press Tools",
+
+    "20MEP41 - Entrepreneurship Development",
+    "20MEP42 - Engineering Economics",
+    "20MEP43 - Lean Manufacturing",
+    "20MEP44 - Total Quality Management",
+    "20MEP45 - Operations Research",
+    "20MEP46 - Intellectual Property Rights",
+
+    "20MEP51 - Machine Vision",
+    "20MEP52 - Industrial Robotics Technology",
+    "20MEP53 - MEMS and Microsystems",
+    "20MEP54 - Applied Hydraulics and Pneumatics",
+    "20MEP55 - Industry 4.0",
+    "20MEP56 - Industrial Automation"
+  ],
+  "open_electives": [
+    "20CSE01 - Basics of Python Programming",
+    "20CSE02 - Introduction to AI",
+    "20CSE03 - Fundamentals of Data Science",
+    "20CSE04 - Basics of Internet Programming",
+    "20CSE05 - Introduction to Soft Computing",
+
+    "20ECE01 - Electronic Measurements and Instrumentation",
+    "20ECE02 - Microcontrollers and its Applications",
+    "20ECE03 - Introduction to Embedded Systems",
+    "20ECE04 - Nano Electronics and Sensors",
+    "20ECE05 - Principles of VLSI Systems",
+
+    "20ITE01 - Big Data Analytics and its Applications",
+    "20ITE02 - Cloud Computing Fundamentals",
+    "20ITE03 - Fundamentals of Internet of Things",
+    "20ITE04 - Introduction to Database Management Systems",
+    "20ITE05 - Web Interface Design and Development",
+    "20ITE06 - Introduction to Data Structures",
+    "20ITE07 - Principles of Software Engineering",
+
+    "20EEE01 - Energy Management Systems",
+    "20EEE02 - Medical Instrumentation",
+    "20EEE03 - PLC Programming",
+    "20EEE04 - Renewable Energy Systems",
+    "20EEE05 - Virtual Instrumentation & Data Acquisition",
+    "20EEE06 - Electric Vehicles",
+
+    "20MEE01 - Automotive Fundamentals",
+    "20MEE02 - Computer Aided Design",
+    "20MEE03 - Introduction to Power Plant Engineering",
+    "20MEE04 - Introduction to Robotics",
+    "20MEE005 - 3D Printing"
+  ]
+}

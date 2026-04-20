@@ -1,0 +1,67 @@
+{
+  "professional_electives": [
+    "20CSP11 - Mobile Networks",
+    "20CSP12 - Storage Area Networks",
+    "20CSP13 - Wireless Sensor Networks",
+    "20CSP14 - Mobile Computing",
+    "20CSP15 - Software Defined Networks",
+    "20CSP16 - Social Network Analysis",
+    "20CSP17 - Distributed Systems",
+
+    "20CSP21 - Cryptography and Network Security",
+    "20CSP22 - Cyber Forensics",
+    "20CSP23 - Network and Web Security",
+    "20CSP24 - Ethical Coding and Risk Management",
+    "20CSP25 - Python Programming",
+    "20CSP26 - Problem Solving using Python Programming",
+
+    "20CSP31 - Augmented Reality and Virtual Reality",
+    "20CSP32 - Design Oriented HCI",
+    "20CSP33 - User Interface Design",
+    "20CSP34 - Human Computer Interaction",
+    "20CSP35 - Image Processing",
+    "20CSP36 - Internet of Things",
+
+    "20CSP41 - Software Project Management",
+    "20CSP42 - Agile Software Development",
+    "20CSP43 - Software Requirements Engineering",
+    "20CSP44 - Software Quality Assurance and Testing",
+    "20CSP45 - Robotic Process Automation",
+
+    "20CSP51 - Salesforce",
+    "20CSP52 - Fundamentals of AWS",
+    "20CSP53 - Machine Learning & Deep Learning Techniques",
+    "20CSP54 - Entrepreneurship Development",
+    "20CSP55 - Soft Computing",
+    "20CSP56 - Data Mining",
+    "20CSP57 - Block chain Technology and Applications",
+
+    "20CSP61 - Intellectual Property Rights",
+    "20CSP62 - Microsoft Azure",
+    "20CSP63 - Big Data Analytics",
+    "20CSP64 - Basics of Tensor Flow and Keras",
+    "20CSP65 - Machine Vision",
+    "20CSP66 - Foundation Skills in Integrated Product Development",
+    "20CSP67 - Information Security"
+  ],
+  "open_electives": [
+    "20ECE01 - Electronic Measurements and Instrumentation",
+    "20ECE02 - Microcontrollers and its Applications",
+    "20ECE03 - Introduction to Embedded Systems",
+    "20ECE04 - Nano Electronics and Sensors",
+    "20ECE05 - Principles of VLSI Systems",
+
+    "20EEE01 - Energy Management Systems",
+    "20EEE02 - Medical Instrumentation",
+    "20EEE03 - PLC Programming",
+    "20EEE04 - Renewable Energy Systems",
+    "20EEE05 - Virtual Instrumentation & Data Acquisition",
+    "20EEE06 - Electric Vehicles",
+
+    "20MEE01 - Automotive Fundamentals",
+    "20MEE02 - Computer Aided Design",
+    "20MEE03 - Introduction to Power Plant Engineering",
+    "20MEE04 - Introduction to Robotics",
+    "20MEE05 - 3D Printing"
+  ]
+}

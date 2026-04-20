@@ -1,0 +1,66 @@
+{
+  "professional_electives": [
+    "20ITP11 - Python Programming",
+    "20ITP12 - Advanced Java Programming",
+    "20ITP13 - Unix Internals",
+    "20ITP14 - C# and .Net Framework",
+    "20ITP15 - Programming with Open source Software",
+    "20ITP16 - Translators and System Software",
+    "20ITP17 - Introduction to Artificial Intelligence",
+
+    "20ITP21 - Distributed Systems",
+    "20ITP22 - Mobile Computing",
+    "20ITP23 - Communication Switching Techniques",
+    "20ITP24 - Ad-hoc and Sensor Networks",
+    "20ITP25 - Software Defined Networks",
+    "20ITP26 - Quantum Computing",
+    "20ITP42 - Data Mining and Data Warehousing",
+
+    "20ITP31 - Digital Image Processing",
+    "20ITP32 - Pattern Recognition",
+    "20ITP33 - User Experience Design",
+    "20ITP34 - Computer Graphics and Multimedia",
+    "20ITP35 - Game Programming",
+    "20ITP36 - Introduction to Augmented Reality",
+
+    "20ITP41 - Advanced Database Technology",
+    "20ITP43 - Predictive Analytics",
+    "20ITP44 - Deep Learning",
+    "20ITP45 - Parallel Computing",
+    "20ITP46 - Business Intelligence",
+
+    "20ITP51 - Web Engineering",
+    "20ITP52 - Advanced Web Programming",
+    "20ITP53 - PHP and MySQL",
+    "20ITP54 - Mobile Application Development",
+    "20ITP55 - Service Oriented Architecture",
+    "20ITP56 - Blockchains",
+
+    "20ITP61 - Management Information Systems",
+    "20ITP62 - Software Testing",
+    "20ITP63 - Software Quality Assurance",
+    "20ITP64 - Principles of Cyber Security",
+    "20ITP65 - IT Security and Risk Management",
+    "20ITP66 - Secure Software Development"
+  ],
+  "open_electives": [
+    "20EEE01 - Energy Management Systems",
+    "20EEE02 - Medical Instrumentation",
+    "20EEE03 - PLC Programming",
+    "20EEE04 - Renewable Energy Systems",
+    "20EEE05 - Virtual Instrumentation and Data Acquisition",
+    "20EEE06 - Electric Vehicles",
+
+    "20ECE01 - Electronic Measurements and Instrumentation",
+    "20ECE02 - Microcontrollers and its Applications",
+    "20ECE03 - Introduction to Embedded Systems",
+    "20ECE04 - Nano Electronics and Sensors",
+    "20ECE05 - Principles of VLSI Systems",
+
+    "20MEE01 - Automotive Fundamentals",
+    "20MEE02 - Computer Aided Design",
+    "20MEE03 - Power Plant Engineering",
+    "20MEE04 - Industrial Engineering",
+    "20MEE05 - Rapid Prototyping"
+  ]
+}

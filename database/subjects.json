@@ -1,0 +1,23 @@
+{
+  "Computer Science and Engineering (CSE)": [
+    "Data Structures",
+    "Operating Systems",
+    "Database Management Systems",
+    "Computer Networks"
+  ],
+  "Electronics and Communication Engineering (ECE)": [
+    "Digital Electronics",
+    "Signal Processing",
+    "Communication Systems"
+  ],
+  "Mechanical Engineering": [
+    "Thermodynamics",
+    "Fluid Mechanics",
+    "Machine Design"
+  ],
+  "Information Technology (IT)": [
+    "Web Development",
+    "Cloud Computing",
+    "Cyber Security"
+  ]
+}

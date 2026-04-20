@@ -1,0 +1,80 @@
+{
+  "department": "Electronics and Communication Engineering",
+  "semesters": {
+    "Semester 1": [
+      "20HSG01 - Technical English",
+      "20MHG01 - Calculus and Linear Algebra",
+      "20PHG01 - Engineering Physics",
+      "20CHG01 - Engineering Chemistry",
+      "20ITG01 - Programming for Problem Solving using C",
+      "20MEG02 - Engineering Workshop",
+      "20PHG02 - Engineering Physics Laboratory",
+      "20ITG02 - Programming in C Laboratory"
+    ],
+    "Semester 2": [
+      "20HSG02 - Universal Human Values II - Understanding Harmony",
+      "20MHG02 - Differential Equations and Complex Variables",
+      "20CSG01 - Object Oriented Programming using C++",
+      "20ECG01 - Electric Circuits",
+      "20EC001 - Electron Devices",
+      "20MEG01 - Engineering Graphics",
+      "20CHG02 - Engineering Chemistry Laboratory",
+      "20CSG02 - Programming in C++ Laboratory",
+      "20AC001 - Environmental Science and Engineering"
+    ],
+    "Semester 3": [
+      "20MHG03 - Transforms and Partial Differential Equations",
+      "20EEG05 - Electrical Engineering",
+      "20EC002 - Analog Electronics",
+      "20EC003 - Digital Electronics",
+      "20EC004 - Electromagnetic Fields and Waves",
+      "Open Elective I",
+      "20EC005 - Analog Electronics Laboratory",
+      "20EC006 - Digital Electronics Laboratory"
+    ],
+    "Semester 4": [
+      "20MHG05 - Probability and Random Processes",
+      "20EC007 - Linear Integrated Circuits",
+      "20EC008 - Signals and Systems",
+      "20EC009 - Transmission Lines and Waveguides",
+      "20EC010 - Microprocessor and Microcontroller",
+      "Open Elective II",
+      "20EC011 - Integrated Circuits Laboratory",
+      "20EC012 - Microprocessor and Microcontroller Laboratory"
+    ],
+    "Semester 5": [
+      "20HMG05 - Professional Practice and Ethics",
+      "20EC013 - Digital Signal Processing",
+      "20EC014 - Analog Communication",
+      "20EC015 - Control Systems",
+      "Professional Elective I",
+      "Open Elective III",
+      "20EC016 - Digital Signal Processing Laboratory",
+      "20EC017 - Analog Communication Laboratory"
+    ],
+    "Semester 6": [
+      "20EC018 - Digital VLSI Design",
+      "20EC019 - Digital Communication",
+      "20EC020 - Antennas and Wave Propagation",
+      "Professional Elective II",
+      "Open Elective IV",
+      "20EC021 - VLSI Design Laboratory",
+      "20EC022 - Digital Communication Laboratory",
+      "20EC901 - Design Project",
+      "20AC002 - Constitution of India"
+    ],
+    "Semester 7": [
+      "20EC023 - Optical Communication",
+      "20EC024 - RF and Microwave Communication",
+      "Professional Elective III",
+      "Professional Elective IV",
+      "Professional Elective V",
+      "20EC025 - Optical and Microwave Laboratory",
+      "20EC902 - Final Year Project - I"
+    ],
+    "Semester 8": [
+      "Professional Elective VI",
+      "20EC903 - Final Year Project - II"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "department": "Mechanical Engineering",
+  "semesters": {
+    "Semester 1": [
+      "20HSG01 - Technical English",
+      "20PHG01 - Engineering Physics",
+      "20CHG01 - Engineering Chemistry",
+      "20MHG01 - Calculus and Linear Algebra",
+      "20ITG01 - Programming for problem solving using C",
+      "20PHG02 - Engineering Physics Lab",
+      "20MEG02 - Engineering Workshop",
+      "20ITG02 - Programming in C Laboratory"
+    ],
+    "Semester 2": [
+      "20HSG02 - Universal Human Values – II : Understanding Harmony",
+      "20MHG02 - Differential Equation and Complex Variables",
+      "20CSG01 - Object Oriented Programming using C++",
+      "20CEG01 - Engineering Mechanics",
+      "20ME001 - Manufacturing Processes I",
+      "20CHG02 - Engineering Chemistry Lab",
+      "20MEG01 - Engineering Graphics",
+      "20CSG02 - Programming in C++ Laboratory",
+      "20AC001 - Environmental Science"
+    ],
+    "Semester 3": [
+      "20MHG03 - Transforms and Partial Differential Equations",
+      "20ME002 - Manufacturing Processes II",
+      "20ME003 - Mechanics of Materials",
+      "20ME004 - Fluid Mechanics and Machinery",
+      "20ME005 - Engineering Thermodynamics",
+      "Open Elective I",
+      "20ME006 - Manufacturing Technology Laboratory",
+      "20ME007 - Mechanics of Materials and Fluid Machinery Laboratory"
+    ],
+    "Semester 4": [
+      "20EEG03 - Electrical and Electronics Engineering",
+      "20ME008 - Theory of Machines",
+      "20ME009 - Thermal Engineering",
+      "20ME010 - Engineering Materials and Metallurgy",
+      "Professional Elective I",
+      "Open Elective II",
+      "20EEG04 - Electrical Engineering Laboratory",
+      "20ME011 - Thermal Engineering Laboratory",
+      "20ME012 - Dynamics Laboratory"
+    ],
+    "Semester 5": [
+      "20ME013 - CAD/CAM",
+      "20ME014 - Heat and Mass Transfer",
+      "20ME015 - Design of Machine Elements",
+      "20ME016 - Engineering Metrology and Quality Control",
+      "Professional Elective II",
+      "Open Elective III",
+      "20ME017 - CAD/CAM Laboratory",
+      "20ME018 - Heat and Mass Transfer Laboratory",
+      "20ME019 - Metrology Laboratory"
+    ],
+    "Semester 6": [
+      "20ME020 - Mechatronics",
+      "20ME021 - Design of Transmission Systems",
+      "20ME022 - Finite Element Analysis",
+      "Professional Elective III",
+      "Open Elective IV",
+      "20ME023 - Mechatronics Laboratory",
+      "20ME024 - Simulation and Analysis Laboratory",
+      "20ME901 - Design Project",
+      "20AC002 - Constitution of India"
+    ],
+    "Semester 7": [
+      "20HMG06 - Professional Ethics in Engineering",
+      "20ME025 - Computer Integrated Manufacturing",
+      "Professional Elective IV",
+      "Professional Elective V",
+      "20ME902 - Final Year Project Phase I"
+    ],
+    "Semester 8": [
+      "Professional Elective VI",
+      "20ME903 - Final Year Project Phase II"
+    ]
+  }
+}

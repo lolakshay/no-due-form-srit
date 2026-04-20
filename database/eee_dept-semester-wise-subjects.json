@@ -1,0 +1,77 @@
+{
+  "department": "Electrical and Electronics Engineering",
+  "semesters": {
+    "Semester 1": [
+      "20HSG01 - Technical English",
+      "20MHG01 - Calculus and Linear Algebra",
+      "20PHG01 - Engineering Physics",
+      "20CHG01 - Engineering Chemistry",
+      "20ITG01 - Programming for Problem Solving using C",
+      "20PHG02 - Engineering Physics Lab",
+      "20ITG02 - Programming in C Laboratory",
+      "20MEG02 - Engineering Workshop"
+    ],
+    "Semester 2": [
+      "20HSG02 - Universal Human Values II : Understanding Harmony",
+      "20MHG02 - Differential Equations and Complex Variables",
+      "20CSG01 - Object Oriented Programming using C++",
+      "20EE001 - Electric Circuit Analysis",
+      "20CHG02 - Engineering Chemistry Lab",
+      "20CSG02 - Programming in C++ Laboratory",
+      "20MEG01 - Engineering Graphics",
+      "20AC001 - Environmental Science and Engineering"
+    ],
+    "Semester 3": [
+      "20MHG03 - Transforms and Partial Differential Equations",
+      "20EEG02 - Electronic Devices and Circuits",
+      "20EE002 - Electro Magnetic Theory",
+      "20EE003 - Linear Integrated Circuits and Applications",
+      "20EE004 - Digital Logic Circuits",
+      "Open Elective I",
+      "20EE005 - Electric Circuit and Electron Devices Laboratory",
+      "20EE006 - Linear Integrated and Digital Circuits Laboratory"
+    ],
+    "Semester 4": [
+      "20EEG06 - Microprocessors and Microcontrollers",
+      "20EE007 - Control Systems Engineering",
+      "20EE008 - Transmission and Distribution",
+      "20EE009 - Electrical Machines - I",
+      "20EE010 - Measurements and Instrumentation",
+      "Open Elective II",
+      "20EEG07 - Microprocessors and Microcontrollers Laboratory",
+      "20EE011 - Control and Instrumentation Laboratory",
+      "20EE012 - Electrical Machines Laboratory - I"
+    ],
+    "Semester 5": [
+      "20HMG04 - Professional Ethics and Values",
+      "20EE013 - Power System Analysis",
+      "20EE014 - Power Electronics",
+      "20EE015 - Electrical Machines - II",
+      "Professional Elective I",
+      "Open Elective III",
+      "20EE016 - Power Electronics Laboratory",
+      "20EE017 - Electrical Machines Laboratory - II"
+    ],
+    "Semester 6": [
+      "20EE018 - Electrical Machine Design",
+      "20EE019 - Power System Operation and Control",
+      "20EE020 - Electrical Drives and Control",
+      "Professional Elective II",
+      "Professional Elective III",
+      "Open Elective IV",
+      "20EE021 - Power System Simulation Laboratory",
+      "20AC002 - Constitution of India"
+    ],
+    "Semester 7": [
+      "20EE022 - Power Generation and Utilization of Electrical Energy",
+      "20EE023 - Protection and Switchgear",
+      "Professional Elective IV",
+      "Professional Elective V",
+      "20EE901 - Design Project"
+    ],
+    "Semester 8": [
+      "Professional Elective VI",
+      "20EE902 - Final Year Project"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "department": "Computer Science and Engineering",
+  "semesters": {
+    "Semester 1": [
+      "20HSG01 - Technical English – I",
+      "20MHG01 - Calculus and Linear Algebra",
+      "20CHG01 - Engineering Chemistry",
+      "20ITG01 - Programming for problem solving using C",
+      "20EEG01 - Basic Electrical and Electronics Engineering",
+      "20MEG01 - Engineering Graphics",
+      "20CHG02 - Engineering Chemistry Laboratory",
+      "20ITG02 - Programming in C Laboratory"
+    ],
+    "Semester 2": [
+      "20HSG02 - Universal Human Values – II : Understanding Harmony",
+      "20MHG02 - Differential Equations and Complex Variables",
+      "20PHG01 - Engineering Physics",
+      "20CSG01 - Object Oriented Programming using C++",
+      "20HMG02 - Professional Ethics",
+      "20AC001 - Environmental Science and Engineering",
+      "20MEG02 - Engineering Workshop",
+      "20PHG02 - Engineering Physics Laboratory",
+      "20CSG02 - Programming in C++ Laboratory"
+    ],
+    "Semester 3": [
+      "20MHG06 - Probability and Statistics (C)",
+      "20ECG02 - Digital Principles and System Design (C)",
+      "20CS001 - Computer Organization and Architecture (C)",
+      "20CS002 - Data Structure",
+      "20IT002 - Java Programming (C)",
+      "20HSG03 - Heritage of Tamils",
+      "Open Elective I",
+      "20CS003 - Data Structures Laboratory",
+      "20IT004 - Java Programming Laboratory (C)"
+    ],
+    "Semester 4": [
+      "20MHG04 - Discrete Mathematics",
+      "20IT007 - Database Management System (C)",
+      "20IT008 - Operating Systems (C)",
+      "20CS004 - Software Engineering (C)",
+      "20CS005 - Analysis of Algorithms",
+      "Open Elective II",
+      "20AC002 - Constitution of India",
+      "20HSG04 - Tamils and Technology",
+      "20IT009 - Database Management System Laboratory (C)",
+      "20IT010 - Operating Systems Laboratory (C)"
+    ],
+    "Semester 5": [
+      "20CS006 - Theory of Computation",
+      "20CS007 - Object Oriented Analysis and Design (C)",
+      "20CS008 - Design of Computer Networks",
+      "20CS009 - Artificial Intelligence",
+      "Professional Elective I",
+      "Open Elective III",
+      "20CS010 - Networks Laboratory",
+      "20CS011 - CASE Tools Laboratory (C)"
+    ],
+    "Semester 6": [
+      "20CS012 - Principles of Compiler Design",
+      "20CS013 - Full Stack Programming",
+      "Professional Elective II",
+      "Open Elective IV",
+      "20CS014 - Compiler Design Lab",
+      "20CS015 - Full Stack Programming Laboratory",
+      "20CS901 - Design Project"
+    ],
+    "Semester 7": [
+      "20CS016 - Cloud Computing Techniques",
+      "Professional Elective III",
+      "Professional Elective IV",
+      "Professional Elective V",
+      "20CS902 - Final Year Project - I"
+    ],
+    "Semester 8": [
+      "Professional Elective VI",
+      "20CS903 - Final Year Project - II"
+    ]
+  }
+}

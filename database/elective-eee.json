@@ -1,0 +1,67 @@
+{
+  "professional_electives": [
+    "20EEP01 - High Voltage Engineering",
+    "20EEP11 - Renewable Energy Sources",
+    "20EEP34 - Introduction to Raspberry Pi",
+    "20EEP44 - PLC and SCADA",
+    "20EEP54 - Automotive Electronics",
+
+    "20EEP05 - Power Quality",
+    "20EEP12 - Power Plant Engineering",
+    "20EEP23 - Switched Mode Power Converters",
+    "20EEP42 - Biomedical Instrumentation",
+    "20EEP32 - Introduction to Embedded System",
+    "20EEP56 - Robot Vision",
+
+    "20EEP02 - High Voltage Direct Current Transmission",
+    "20EEP13 - Alternate Energy and Storage Systems",
+    "20EEP52 - Principles of Robotics",
+    "20EEP45 - Sensors and Transducers",
+    "20EEP55 - Introduction to Image Processing",
+
+    "20EEP04 - Smart Grid",
+    "20EEP14 - Energy Management and Auditing",
+    "20EEP35 - Digital Signal Processing",
+    "20EEP43 - Introduction to Industry 4.0",
+    "20EEP51 - Introduction to Neural Networks",
+
+    "20EEP03 - Restructured Power Systems",
+    "20EEP15 - Design of Photovoltaic Systems",
+    "20EEP31 - Microcontroller Based System Design",
+    "20EEP41 - Virtual Instrumentation",
+    "20EEP53 - Electric Vehicles",
+
+    "20EEP24 - Special Electrical Machines and Controllers",
+    "20EEP33 - Wearable Electronics",
+    "20EEP22 - Flexible AC Transmission Systems",
+    "20EEP25 - Advanced Electrical Drives",
+    "20EEP21 - Power Electronics for Renewable Energy"
+  ],
+  "open_electives": [
+    "20CSE01 - Basics of Python Programming",
+    "20CSE02 - Introduction to AI",
+    "20CSE03 - Fundamentals of Data Science",
+    "20CSE04 - Basics of Internet Programming",
+    "20CSE05 - Introduction to Soft Computing",
+
+    "20ECE01 - Electronic Measurements and Instrumentation",
+    "20ECE02 - Microcontrollers and its Applications",
+    "20ECE03 - Introduction to Embedded Systems",
+    "20ECE04 - Nano Electronics and Sensors",
+    "20ECE05 - Principles of VLSI Systems",
+
+    "20MEE01 - Automotive Fundamentals",
+    "20MEE02 - Computer Aided Design",
+    "20MEE03 - Power Plant Engineering",
+    "20MEE04 - Introduction to Robotics",
+    "20MEE05 - 3D Printing",
+
+    "20ITE01 - Big Data Analytics and its Applications",
+    "20ITE02 - Cloud Computing Fundamentals",
+    "20ITE03 - Fundamentals of Internet of Things",
+    "20ITE04 - Introduction to Database Management Systems",
+    "20ITE05 - Web Interface Design and Development",
+    "20ITE06 - Introduction to Data Structures",
+    "20ITE07 - Principles of Software Engineering"
+  ]
+}

@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+#canvas-particles {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 95%;
+    max-width: 900px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Button Classes */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border: 1px solid #138496;
+}
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    border: 1px solid #e0a800;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.action-buttons-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.action-buttons-row button {
+    flex: 1;
+    min-width: 140px;
+}
+
+.bottom-action-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.bottom-action-row button {
+    flex: 1;
+    min-width: 150px;
+}
+
+/* Custom Select Styles */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select:focus {
+    border-color: #007bff;
+}
+
+/* Custom Searchable Select Styles */
+.searchable-select {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.searchable-select input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.searchable-select input:focus {
+    border-color: #007bff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    z-index: 100;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-group {
+    padding: 8px 12px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-item {
+    padding: 10px 12px 10px 24px;
+    cursor: pointer;
+    color: #555;
+    transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #e9ecef;
+    color: #000;
+}
+
+/* Table and Preview Styles */
+.preview-section {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    min-width: 650px; /* guarantees nice table layout inside scrollable pane */
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+tr.dragging {
+    opacity: 0.5;
+    background-color: #f1f1f1;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.action-btn {
+    background-color: #6c757d;
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.action-btn:hover {
+    background-color: #5a6268;
+}
+
+.delete-all-btn {
+    width: 100%;
+    background-color: #dc3545;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.delete-all-btn:hover {
+    background-color: #c82333;
+}
+
+.download-btn {
+    width: 100%;
+    background-color: #28a745;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .tgnas-lock {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        padding: 20px 10px;
+    }
+    .container {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .action-buttons-row button {
+        min-width: 100%;
+    }
+    .bottom-action-row button {
+        min-width: 100%;
+    }
+}
+
+/* Playful TGNAS Bot & Lock Styles */
+.tgnas-bot {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: transparent; 
+    color: black;
+    font-family: 'Michroma', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-shadow: 0 0 6px gold, 0 0 12px gold, 0 0 20px #ffb300;
+    z-index: 9999;
+    transition: top 0.2s ease, left 0.2s ease, transform 0.2s, text-shadow 0.2s ease;
+    user-select: none;
+    padding: 5px; /* subtle buffer so hover fires slightly further out */
+}
+
+.tgnas-bot:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 12px gold, 0 0 24px #ffb300, 0 0 35px #ff8c00;
+}
+
+.tgnas-lock {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #fff;
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9999;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: background 0.3s, border-color 0.3s;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tgnas-lock:hover {
+    background: #f0f0f0;
+}
+
+.tgnas-lock.locked {
+    background: #ffc107;
+    border-color: #e0a800;
+}

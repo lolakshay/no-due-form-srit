@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Due Form Generator | Generate College Clearance Forms</title>
+    <meta name="description" content="Quickly generate a semester no dues certificate and college clearance form with our free No Due Form Generator. Perfect for students finalizing submissions.">
+    <meta name="keywords" content="No Due Form Generator, college clearance form, semester no dues certificate, engineering clearance form, automated no due, SRIT no due">
+    <meta name="author" content="SRIT Students">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="No Due Form Generator | Generate College Clearance Forms">
+    <meta property="og:description" content="Quickly generate a semester no dues certificate and college clearance form with our free No Due Form Generator.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-github-username.github.io/TGNAS-no-due-generator/">
+    <meta property="og:site_name" content="No Due Form Generator">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="No Due Form Generator | Generate College Clearance Forms">
+    <meta name="twitter:description" content="Generate your college clearance form easily and seamlessly.">
+
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mobile-drag-drop@2.3.0/default.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "No Due Form Generator",
+          "url": "https://your-github-username.github.io/TGNAS-no-due-generator/",
+          "description": "Generate your semester no dues certificate effortlessly."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "No Due Form Generator",
+          "applicationCategory": "EducationalApplication",
+          "operatingSystem": "Any",
+          "description": "A web-based tool to automatically generate a college clearance form for students.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <canvas id="canvas-particles"></canvas>
+    
+    <!-- Playful Floating TGNAS Elements -->
+    <a href="https://www.linkedin.com/in/akshay-srinivas/" id="tgnas-bot" target="_blank" class="tgnas-bot">TGNAS</a>
+    <button id="tgnas-lock" class="tgnas-lock" title="Lock the TGNAS bubble">🔓</button>
+
+    <main class="container">
+        <h1>TGNAS No Due Form Generator <a href="srit.org">SRIT</a></h1>
+        
+        <div class="form-group" id="deptGroup">
+            <label for="departmentInput">Select Department:</label>
+            <div class="searchable-select">
+                <input type="text" id="departmentInput" placeholder="-- Choose Department --" autocomplete="off">
+                <div id="departmentDropdown" class="dropdown-content"></div>
+            </div>
+        </div>
+
+        <div class="form-group" id="semGroup" style="display: none;">
+            <label for="semesterInput">Select Semester:</label>
+            <div class="searchable-select">
+                <input type="text" id="semesterInput" placeholder="-- Choose Semester --" autocomplete="off">
+                <div id="semesterDropdown" class="dropdown-content"></div>
+            </div>
+        </div>
+
+        <div id="dynamicDropdowns" style="display: none;">
+            <div class="form-group">
+                <label for="facultyInput">Select Faculty:</label>
+                <div class="searchable-select">
+                    <input type="text" id="facultyInput" placeholder="-- Type to Search Faculty --" autocomplete="off">
+                    <div id="facultyDropdown" class="dropdown-content"></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="subjectInput">Select Subject:</label>
+                <div class="searchable-select">
+                    <input type="text" id="subjectInput" placeholder="-- Type to Search Subject --" autocomplete="off">
+                    <div id="subjectDropdown" class="dropdown-content"></div>
+                </div>
+                <div class="action-buttons-row">
+                    <button id="addSubjectBtn" class="btn-primary">Add Subject</button>
+                    <button id="addCustomSubjectBtn" class="btn-info">Add Custom Subject</button>
+                    <button id="addAllDefaultBtn" class="btn-warning">Add All Regular Subjects</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview-section">
+            <h2>Selected Subjects Preview</h2>
+            <div class="table-responsive">
+                <table id="previewTable">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Subject Name</th>
+                            <th>Faculty Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="previewBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="bottom-action-row">
+            <button id="deleteAllBtn" class="delete-all-btn">Delete All</button>
+            <button id="downloadPdfBtn" class="download-btn">Download PDF</button>
+        </div>
+    </main>
+
+    <article class="container" style="margin-top: 20px; text-align: left;">
+        <header>
+            <h2 style="text-align: left; margin-top: 0;">What is this tool?</h2>
+        </header>
+        <section>
+            <p>The <strong>No Due Form Generator</strong> is an easy-to-use digital utility designed comprehensively for college students and staff. It dramatically streamlines the process of generating a <strong>college clearance form</strong>. Gone are the days of manually hunting down faculty members with a physically printed sheet—simply select your department, dynamically configure your semester subjects, and compile your <strong>semester no dues certificate</strong> into a neat PDF export instantly, pre-filled with the subjects and respective professors.</p>
+        </section>
+
+        <section style="margin-top: 30px;">
+            <h2 style="text-align: left;">How to use</h2>
+            <ol style="line-height: 1.6;">
+                <li>Select your academic grouping from the <strong>Department</strong> dropdown menu.</li>
+                <li>Choose your current <strong>Semester</strong> to automatically load your exact curriculum.</li>
+                <li>Use the <strong>Add All Regular Subjects</strong> bulk button, or manually add specific custom subjects and electives into your clearance list.</li>
+                <li>Select your faculty member for each respective core subject seamlessly within the interactive table. You can re-order rows using the drag features.</li>
+                <li>Click the <strong>Download PDF</strong> button at the bottom to export your official college clearance form.</li>
+            </ol>
+        </section>
+
+        <section style="margin-top: 30px;">
+            <h2 style="text-align: left;">Features</h2>
+            <ul style="line-height: 1.6;">
+                <li>Instant PDF merge with default institutional templates.</li>
+                <li>Full HTML5 drag-and-drop subject sorting for accurate representation.</li>
+                <li>Searchable intelligent faculty dropdowns specifically rendered for each distinct table row.</li>
+                <li>Complete mobile-responsive framework ensuring generation capabilities from any smartphone or tablet.</li>
+            </ul>
+        </section>
+        
+        <section style="margin-top: 30px;">
+            <h2 style="text-align: left;">Frequently Asked Questions (FAQ)</h2>
+            <div style="margin-top: 15px;">
+                <details style="margin-bottom: 10px; padding: 10px; background: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; cursor: pointer;">
+                    <summary style="font-weight: bold; outline: none;">Does this No Due Form Generator work on mobile?</summary>
+                    <p style="margin-top: 10px; margin-bottom: 0;">Yes! The entire application has been optimized to handle complex academic form building smoothly across iPhones and Android devices.</p>
+                </details>
+                
+                <details style="margin-bottom: 10px; padding: 10px; background: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; cursor: pointer;">
+                    <summary style="font-weight: bold; outline: none;">Is the semester no dues certificate officially recognized?</summary>
+                    <p style="margin-top: 10px; margin-bottom: 0;">It generates a professionally formatted document based on standard templates. Please cross-reference with your specific department's policies before final submission.</p>
+                </details>
+
+                <details style="margin-bottom: 10px; padding: 10px; background: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; cursor: pointer;">
+                    <summary style="font-weight: bold; outline: none;">Can I add a custom subject not listed in the curriculum?</summary>
+                    <p style="margin-top: 10px; margin-bottom: 0;">Absolutely. You can use the "Add Custom Subject" button to bypass the standard validations and enter any valid academic unit manually.</p>
+                </details>
+
+                <details style="margin-bottom: 10px; padding: 10px; background: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; cursor: pointer;">
+                    <summary style="font-weight: bold; outline: none;">Why are the faculty fields left blank when bulk adding?</summary>
+                    <p style="margin-top: 10px; margin-bottom: 0;">When using the "Add All Regular Subjects" bulk feature, it is intentional to leave faculty slots open so you can individually assign or query professors directly into the inline table.</p>
+                </details>
+
+                <details style="margin-bottom: 10px; padding: 10px; background: #f8f9fa; border-radius: 5px; border: 1px solid #ddd; cursor: pointer;">
+                    <summary style="font-weight: bold; outline: none;">Are the generated PDF files stored securely?</summary>
+                    <p style="margin-top: 10px; margin-bottom: 0;">Everything is processed 100% locally on your browser. There is no external server tracking your subjects or storing any of your generated PDF college clearance forms.</p>
+                </details>
+            </div>
+        </section>
+    </article>
+
+    <datalist id="facultyDataList"></datalist>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mobile-drag-drop@2.3.0/index.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>

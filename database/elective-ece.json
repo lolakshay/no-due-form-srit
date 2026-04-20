@@ -1,0 +1,70 @@
+{
+  "professional_electives": [
+    "20ECP01 - Electronic Measurements",
+    "20ECP02 - Advanced Digital System Design",
+    "20ECP03 - Computer Architecture",
+    "20ECP04 - Advanced Microprocessors and Microcontrollers",
+    "20ECP05 - Optoelectronics",
+    "20ECP06 - Biomedical Instrumentation",
+    "20ECP07 - Numerical Analysis",
+    "20ECP08 - Nano Electronics",
+    "20ECP09 - Electromagnetic Interference and Compatibility",
+    "20ECP10 - Telecommunication Switching and Networks",
+
+    "20ECP11 - Digital Image Processing",
+    "20ECP12 - Principles of Satellite Communication",
+    "20ECP13 - High Performance Communication Networks",
+    "20ECP14 - Real time Concepts for Embedded Systems",
+    "20ECP15 - Software for Embedded Systems",
+    "20ECP16 - Artificial Intelligence",
+    "20ECP17 - Low Power VLSI Design",
+    "20ECP18 - Optical Networks",
+    "20ECP19 - Electronic Packaging",
+    "20ECP20 - Introduction to MEMS System Design",
+
+    "20ECP21 - Wireless Communication",
+    "20ECP22 - Cognitive Radio",
+    "20ECP23 - Wireless Networks",
+    "20ECP24 - Cryptography and Network Security",
+    "20ECP25 - Wireless Sensor Networks",
+    "20ECP26 - Introduction to Embedded Controllers",
+    "20ECP27 - ASIC Design",
+    "20ECP28 - Machine Learning",
+    "20ECP29 - Deep Learning",
+    "20ECP30 - Cognitive Robotics"
+  ],
+  "open_electives": [
+    "20CSE01 - Basics of Python Programming",
+    "20CSE02 - Introduction to AI",
+    "20CSE03 - Fundamentals of Data Science",
+    "20CSE04 - Basics of Internet Programming",
+    "20CSE05 - Introduction to Soft Computing",
+
+    "20EEE01 - Energy Management Systems",
+    "20EEE02 - Medical Instrumentation",
+    "20EEE03 - PLC Programming",
+    "20EEE04 - Renewable Energy Systems",
+    "20EEE05 - Virtual Instrumentation & Data Acquisition",
+    "20EEE06 - Electric Vehicles",
+
+    "20ITE01 - Big Data Analytics and its Applications",
+    "20ITE02 - Cloud Computing Fundamentals",
+    "20ITE03 - Fundamentals of Internet of Things",
+    "20ITE04 - Introduction to Database Management Systems",
+    "20ITE05 - Web Interface Design and Development",
+    "20ITE06 - Introduction to Data Structures",
+    "20ITE07 - Principles of Software Engineering",
+
+    "20MEE01 - Automotive Fundamentals",
+    "20MEE02 - Computer Aided Design",
+    "20MEE03 - Power Plant Engineering",
+    "20MEE04 - Industrial Engineering",
+    "20MEE05 - Rapid Prototyping",
+
+    "20ECE01 - Electronic Measurements and Instrumentation",
+    "20ECE02 - Microcontrollers and its Applications",
+    "20ECE03 - Introduction to Embedded Systems",
+    "20ECE04 - Nano Electronics and Sensors",
+    "20ECE05 - Principles of VLSI Systems"
+  ]
+}
