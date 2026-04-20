@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-github-username.github.io/TGNAS-no-due-generator/sitemap.xml
+Sitemap: https://lolakshay.github.io/no-due-form-srit/sitemap.xml
